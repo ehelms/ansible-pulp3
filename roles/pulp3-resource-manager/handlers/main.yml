@@ -1,7 +1,7 @@
 ---
-- name: Restart pulp-resource-manager
+- name: Restart pulp3-resource-manager
   systemd:
-    name: pulp-resource-manager.service
+    name: pulp3-resource-manager.service
     state: restarted
     daemon_reload: true
   become: true
